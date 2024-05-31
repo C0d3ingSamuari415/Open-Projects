@@ -1,0 +1,13 @@
+//line below is kelvin temp 
+const kelvin = 293;
+
+//line below is the celsius temp rep 
+const celsius = kelvin - 273;
+
+//line below is the fahrenheit temp 
+let fahrenheit = celsius * (9 / 5) + 32;
+
+//round down
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperture is ${fahrenheit} degrees Fahrenheit`);
